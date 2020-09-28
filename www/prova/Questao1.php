@@ -19,7 +19,14 @@
 //Retorno inteiro
 //O número do século em que se encontra o ano.
 
-function centuryFromYear($year)
+$year = 1970;
+$centena = 100;
+
+$answer = function centuryFromYear($year)
 {
-    // CÓDIGO ...
+    if ($year % $centena = 0)  {
+    var_dump("O ano $year pertence ao século ($year / $centena).";
+} else {
+    var_dump("O ano $year pertence ao século ($year / $centena).";
+}
 }
