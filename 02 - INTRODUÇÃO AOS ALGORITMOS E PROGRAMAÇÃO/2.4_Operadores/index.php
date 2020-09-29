@@ -2,9 +2,6 @@
 require __DIR__ . '/../framework/config.php';
 PHPClassName('Aula 2.4 - Operadores');
 
-
-
-
 PHPClassSession('ATRIBUIÇÃO', __LINE__);
 
 $operatorA = 5;
@@ -26,7 +23,7 @@ $increment = [
     "pré-incremento" => ++$incrementA,
     "pós-decremento" => $incrementB--,
     "res-decremento" => $incrementB,
-    "pré-decremento" => --$incrementB
+    "pré-decremento" => --$incrementB,
 ];
 
 var_dump($increment);
@@ -34,9 +31,9 @@ var_dump($increment);
 PHPClassSession('LÓGICOS', __LINE__);
 
 // AND
-// TRUE AND TRUE = TRUE   
+// TRUE AND TRUE = TRUE
 // TRUE AND FALSE = FALSE
-// FALSE AND FALSE = FALSE 
+// FALSE AND FALSE = FALSE
 
 // OR
 // TRUE OR TRUE = TRUE
@@ -53,10 +50,10 @@ $logicA = true;
 $logicB = false;
 
 $logic = [
-    "a && b" => ($logicA && $logicB),
-    "a || b" => ($logicA || $logicB),
-    "!a" => (!$logicA),
-    "!b" => (!$logicB),
+    "a && b" => $logicA && $logicB,
+    "a || b" => $logicA || $logicB,
+    "!a" => !$logicA,
+    "!b" => !$logicB,
 ];
 
 var_dump($logic);
@@ -66,11 +63,11 @@ PHPClassSession('ARITMETICOS', __LINE__);
 $calcA = 5;
 $calcB = 10;
 $calc = [
-    "a + b" => ($calcA + $calcB),
-    "a - b" => ($calcA - $calcB),
-    "a * b" => ($calcA * $calcB),
-    "a / b" => ($calcA / $calcB),
-    "a % b" => ($calcA % $calcB),
+    "a + b" => $calcA + $calcB,
+    "a - b" => $calcA - $calcB,
+    "a * b" => $calcA * $calcB,
+    "a / b" => $calcA / $calcB,
+    "a % b" => $calcA % $calcB,
 ];
 
 var_dump($calc);

@@ -21,3 +21,5 @@ function reverseInParentheses($inputString)
 {
     // CÓDIGO
 }
+
+strrev ( string $string ) : string

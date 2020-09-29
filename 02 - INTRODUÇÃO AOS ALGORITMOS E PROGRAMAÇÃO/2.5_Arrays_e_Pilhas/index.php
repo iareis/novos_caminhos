@@ -2,20 +2,15 @@
 require __DIR__ . '/../framework/config.php';
 PHPClassName('Aula 2.5 - Arrays');
 
-
 PHPClassSession('INDEX ARRAY', __LINE__);
 
-$arrA = array(1, 2, 3);
+$arrA = [1, 2, 3];
 var_dump($arrA);
 
 $arrB = [0, 1, 2, 3];
 var_dump($arrB);
 
-$arrayIndex = [
-    "Iury",
-    "Daniel",
-    "Luciano"
-];
+$arrayIndex = ["Iury", "Daniel", "Luciano"];
 
 $arrayIndex[] = "Fernando";
 $arrayIndex[] = "José roberto";
@@ -28,7 +23,7 @@ $arrayAssoc = [
     "docente" => "Iury Gomes",
     "tutor1" => "Fernando",
     "tutor2" => "Daniel",
-    "tutor3" => "Luciano"
+    "tutor3" => "Luciano",
 ];
 
 $arrayAssoc["Supervisor"] = "José Roberto";
@@ -42,13 +37,10 @@ $coordenacao = [
     "Coordenação" => [
         "Coordenação Administrativa" => "Pedrinha",
         "Coordenação de Extensão" => "Jade",
-    ]
+    ],
 ];
 
-$team = [
-    $coordenacao,
-    $arrayAssoc,
-];
+$team = [$coordenacao, $arrayAssoc];
 
 var_dump($coordenacao, $team);
 
@@ -59,19 +51,17 @@ $team = [
     "tutor1" => "Fernando",
     "tutor2" => "Daniel",
     "tutor3" => "Luciano",
-    "Supervisor" => "José Roberto"
+    "Supervisor" => "José Roberto",
 ];
 
 echo "Equipe Programador WEB" . PHP_EOL;
 
 foreach ($team as $item) {
-
     echo "<p>$item</p>";
 }
 
 echo "Equipe Programador WEB" . PHP_EOL;
 
 foreach ($team as $key => $value) {
-
     echo "<p>$value é o $key do time!</p>";
 }
