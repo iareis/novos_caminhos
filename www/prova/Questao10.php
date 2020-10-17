@@ -17,10 +17,7 @@
 // Para inputString = "foo(bar)baz(blim)",
 // a saída deve ser "foorabbazmilb"
 
-
 function reverseInParentheses($inputString)
 {
     // CÓDIGO
 }
-
-strrev ( string $string ) : string
