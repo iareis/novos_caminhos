@@ -1,11 +1,26 @@
 version: "3"
 
 services:
+    mysql:
+        image: mysql:5.7
+        environment:
+            - MYSQL_USER=root
+            - MYSQL_ROOT_PASSWORD=root
+            - MYSQL_DATABASE=novos_caminhos
+        ports:
+            - 3306:3306
+        volumes:
+            - db_data:/var/lib/mysql
     php:
         build: ./docker/php
         volumes:
             - ./www:/usr/share/nginx/html
             - ./docker/php/php.ini:/usr/local/etc/php/php.ini
+        depends_on:
+            - "mysql"
+        environment:
+            - MYSQL_USER=root
+            - MYSQL_PASS=root
     nginx:
         image: "nginx:1.19.1-alpine"
         volumes:
