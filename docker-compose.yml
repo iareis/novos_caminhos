@@ -30,3 +30,5 @@ services:
             - "9999:80"
         depends_on:
             - "php"
+volumes:
+    db_data:
