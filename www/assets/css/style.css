@@ -1,0 +1,7 @@
+article p {
+    color: green;
+    text-align: center;
+    font-size: 1em;
+}
+
+/* A estrutura acima irá atuar sobre as tags "p" dentro das tags "article" */

@@ -1,0 +1,6 @@
+[26-Oct-2020 23:24:00 America/Araguaina] PHP Warning:  Unknown: failed to open stream: No such file or directory in Unknown on line 0
+[26-Oct-2020 23:24:01 America/Araguaina] PHP Fatal error:  Unknown: Failed opening required '/usr/share/nginx/html/index.php' (include_path='.:/usr/local/lib/php') in Unknown on line 0
+[29-Oct-2020 14:15:34 America/Araguaina] PHP Warning:  Unknown: failed to open stream: No such file or directory in Unknown on line 0
+[29-Oct-2020 14:15:34 America/Araguaina] PHP Fatal error:  Unknown: Failed opening required '/usr/share/nginx/html/Projeto_Pratico copy iareis/_index.php' (include_path='.:/usr/local/lib/php') in Unknown on line 0
+[29-Oct-2020 14:16:15 America/Araguaina] PHP Warning:  Unknown: failed to open stream: No such file or directory in Unknown on line 0
+[29-Oct-2020 14:16:17 America/Araguaina] PHP Warning:  Unknown: failed to open stream: No such file or directory in Unknown on line 0
