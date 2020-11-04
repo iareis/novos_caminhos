@@ -1,162 +1,346 @@
-<!DOCTYPE html>
-<html lang='pt-br'>
+ <!DOCTYPE html>
+ <html lang="pt-br">
 
-<head>
-    <meta charset='UTF-8'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-    <meta name='robots' content='index, follow'>
-    <link rel='shortcut icon' href='assets/img/logo.png'>
-    <link rel='stylesheet' href='assets/styles/boot.css'>
-    <link rel='stylesheet' href='assets/styles/style_test.css'>
-    <title>Document</title>
-</head>
+ <head>
+     <meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <meta name="robots" content="index, follow" />
+     <link rel="shortcut icon" href="" />
+     <link rel="stylesheet" href="" />
+     <title>Site do Curso Programador WEB</title>
+ </head>
 
-<body>
+ <body>
+     <!-- CABEÇALHO -->
+     <header>
+         <a href="#">
+             <img src="assets/img/logo.png" alt="logotipo do curso" title="logotipo do curso" width="150" />
+         </a>
+         <nav>
+             <ul>
+                 <li><a href="#home">Home</a></li>
+                 <li><a href="#blog">Blog</a></li>
+                 <li><a href="#escola">A Escola</a></li>
+                 <li><a href="#contatos">Contato</a></li>
+                 <li><a href="/novos_caminhos_iuri/www/Avaliacao3/index.php">Avaliação 3</a></li>
+                 <li><a href="/novos_caminhos_iuri/www/Projeto_Pratico/index.php">Projeto Pático</a></li>
+                 <li><a href="/novos_caminhos_iuri/www/testesIuri/readtesteiar.php">Redes Sociais</a></li>
+             </ul>
+         </nav>
+     </header>
+     <!-- FIM DO CABEÇALHO -->
 
-    <header>
-        <h1>
-            Seja bem vindo ao site!
-        </h1>
-        <p>Exemplo de seletores</p>
-    </header>
+     <main>
 
-    <main>
+         <!-- CHAMADA PRINCIPAL -->
+         <article>
+             <header>
+                 <h1>
+                     Aqui você aprende o essencial para trabalhar como
+                     Webmaster Fullstack
+                 </h1>
+                 <p>Estude o HTML 5 e o CSS 3 na disciplina de webdesign</p>
+                 <p>
+                     <a href="#" class="btn">Saiba mais</a>
+                 </p>
+             </header>
+         </article>
+         <!-- FIM DA CHAMADA PRINCIPAL -->
 
-        <!-- BOTÃO EM HTML + CSS -->
-        <a href="#" class="btn btn_green">Botão</a>
-        <a href="#" class="btn btn_red">Excluir</a>
-        <!-- FIM BOTÃO EM HTML + CSS -->
+         <!-- ARTIGOS -->
+         <section>
+             <header>
+                 <h1>Nossos Últimos Artigos:</h1>
+             </header>
+             <p>
+                 Aqui você encontra os artigos necessários para auxiliar na
+                 sua caminhada na WEB.
+             </p>
+             <?php for ($i = 0; $i < 12; $i++): ?>
+             <article>
+                 <a href="" alt="" title=""></a>
+                 <p>Categoria</p>
+                 <h2>
+                     Et eos natus quia vel labore omnis. Nisi occaecati modi
+                     saepe est. Et doloremque alias voluptas dicta voluptas.
+                     Laudantium at repudiandae ut vero est sunt quibusdam
+                     repellendus consectetur. Dolorem debitis pariatur
+                     officia saepe. Laudantium est consequatur qui repellat
+                     saepe.
+                 </h2>
+             </article>
+             <?php endfor; ?>
+         </section>
+         <!-- FIM DOS ARTIGOS -->
 
-        <!-- SESSÃO DOS ARTIGOS -->
-        <section class="main_blog radius">
-            <header>
-                <h2>
-                    Sessão principal de conteúdo:
-                </h2>
-            </header>
+         <!-- NEWS -->
+         <article>
+             <header>
+                 <h1>Quer receber todas as novidades em seu e-mail ?</h1>
+                 <p>
+                     Informe seu nome e e-mail no campo ao lado e clique em
+                     OK !
+                 </p>
+             </header>
+             <form action="" method="post">
+                 <input type="text" name="nome" placeholder="Seu nome" required>
+                 <input type="email" name="email" placeholder="Seu e-mail" required>
+                 <button type="submit">OK !</button>
+             </form>
+         </article>
+         <!-- FIM DAS NEWS -->
 
-            <!-- ARTIGO UM -->
-            <article class="radius">
-                <header>
-                    <h3 class="title_medium_lightgray">
-                        Teste de Artigo
-                    </h3>
-                </header>
+         <!-- SOBRE O CURSO -->
+         <section>
+             <header>
+                 <img src="/assets/img/ifto.svg" alt="logotipo do curso" title="logotipo do curso" width="150" />
+                 <h1>Curso de Programação WEB</h1>
+                 <p>
+                     Aprenda a trabalhar com HTML5 e CSS3 para desenvolver
+                     seus projetos e entregar páginas que estejam dentro
+                     dos padrões WEB seguindoboas práticas de programação.
+                 </p>
+             </header>
+             <?php
+             $vantagens = [
+                 "Curso 100% Online",
+                 "Suporte Especializado",
+                 "As aulas são divididas em Módulos",
+                 "Certificado reconhecido em todo o território nacional",
+                 "Veja aqui alguns comentários dos nossos alunos",
+             ];
 
-                <p>
-                    Unde qui sit est animi dolor. Est qui in magni doloribus asperiores sed ut optio. Sequi sit neque
-                    beatae
-                    occaecati consequuntur. Voluptatem et qui qui sed sed quia maiores. Excepturi occaecati omnis esse
-                    pariatur tempore libero.
-                    Adipisci doloremque at dignissimos. Officia corporis rerum autem quia. Cumque quos voluptatem.
-                    Consequatur laudantium assumenda qui autem tenetur architecto iste veniam. Qui architecto ipsa
-                    quisquam
-                    voluptatem odio aut deleniti nihil nam.
-                    Expedita placeat veniam minima nihil possimus sint consectetur. Vel ratione est rerum id. Nam quia
-                    aut
-                    nulla voluptatum blanditiis est.
-                </p>
-            </article>
-            <!-- FIM ARTIGO UM -->
-            <!-- ARTIGO DOIS -->
-            <article>
-                <header>
-                    <h3>
-                        Teste de Artigo
-                    </h3>
-                </header>
+             $descricao = [
+                 "Todas as aulas são gravadas e focadas na prática",
+                 "Este curso possui suporte diretamente com um profissional da nossa equipe oficial",
+                 "A modularização que você precisa para compreender de maneira mais objetiva",
+                 "Ao concluir o curso você receberá um certificado federal com reconhecimento em todo o território nacional",
+                 "Veja o que estão falando sobre o curso",
+             ];
+             ?>
 
-                <p>
-                    Unde qui sit est animi dolor. Est qui in magni doloribus asperiores sed ut optio. Sequi sit neque
-                    beatae
-                    occaecati consequuntur. Voluptatem et qui qui sed sed quia maiores. Excepturi occaecati omnis esse
-                    pariatur tempore libero.
-                    Adipisci doloremque at dignissimos. Officia corporis rerum autem quia. Cumque quos voluptatem.
-                    Consequatur laudantium assumenda qui autem tenetur architecto iste veniam. Qui architecto ipsa
-                    quisquam
-                    voluptatem odio aut deleniti nihil nam.
-                    Expedita placeat veniam minima nihil possimus sint consectetur. Vel ratione est rerum id. Nam quia
-                    aut
-                    nulla voluptatum blanditiis est.
-                </p>
-            </article>
-            <!-- FIM ARTIGO DOIS -->
-            <!-- ARTIGO TRÊS -->
-            <article>
-                <header>
-                    <h3>
-                        Teste de Artigo
-                    </h3>
-                </header>
+             <?php for ($i = 0; $i < 4; $i++): ?>
+             <article>
+                 <header>
+                     <h2>
+                         <?= $vantagens[$i] ?>
+                     </h2>
+                 </header>
+                 <p>
+                     <?= $descricao[$i] ?>
+                 </p>
+             </article>
+             <?php endfor; ?>
 
-                <p>
-                    Unde qui sit est animi dolor. Est qui in magni doloribus asperiores sed ut optio. Sequi sit neque
-                    beatae
-                    occaecati consequuntur. Voluptatem et qui qui sed sed quia maiores. Excepturi occaecati omnis esse
-                    pariatur tempore libero.
-                    Adipisci doloremque at dignissimos. Officia corporis rerum autem quia. Cumque quos voluptatem.
-                    Consequatur laudantium assumenda qui autem tenetur architecto iste veniam. Qui architecto ipsa
-                    quisquam
-                    voluptatem odio aut deleniti nihil nam.
-                    Expedita placeat veniam minima nihil possimus sint consectetur. Vel ratione est rerum id. Nam quia
-                    aut
-                    nulla voluptatum blanditiis est.
-                </p>
-            </article>
-            <!-- FIM ARTIGO TRÊS -->
-            <!-- ARTIGO QUATRO -->
-            <article>
-                <header>
-                    <h3>
-                        Teste de Artigo
-                    </h3>
-                </header>
+             <section>
+                 <header>
+                     <h2>Veja o que estão falando sobre o curso</h2>
+                 </header>
+                 <article>
+                     <header>
+                         <h3>Amadeus Qualquercoisa (Ponto Positivo)</h3>
+                         <p>É online.</p>
+                     </header>
+                 </article>
+                 <article>
+                     <header>
+                         <h3>Arcephalus Moya (Ponto Positivo)</h3>
+                         <p>É online.</p>
+                     </header>
+                 </article>
+                 <article>
+                     <header>
+                         <h3>Jazeiro Boyda (Ponto Positivo)</h3>
+                         <p>É online.</p>
+                     </header>
+                 </article>
+             </section>
+         </section>
+         <!-- FIM SOBRE O CURSO -->
 
-                <p>
-                    Unde qui sit est animi dolor. Est qui in magni doloribus asperiores sed ut optio. Sequi sit neque
-                    beatae
-                    occaecati consequuntur. Voluptatem et qui qui sed sed quia maiores. Excepturi occaecati omnis esse
-                    pariatur tempore libero.
-                    Adipisci doloremque at dignissimos. Officia corporis rerum autem quia. Cumque quos voluptatem.
-                    Consequatur laudantium assumenda qui autem tenetur architecto iste veniam. Qui architecto ipsa
-                    quisquam
-                    voluptatem odio aut deleniti nihil nam.
-                    Expedita placeat veniam minima nihil possimus sint consectetur. Vel ratione est rerum id. Nam quia
-                    aut
-                    nulla voluptatum blanditiis est.
-                </p>
-            </article>
-            <!-- FIM ARTIGO QUATRO -->
-        </section>
-        <!-- FIM SESSÃO DOS ARTIGOS -->
-    </main>
+         <!-- A ESCOLA -->
+         <section>
+             <header>
+                 <h1>Bem vindo ao <i>Campus</i> Araguaina - IFTO</h1>
+             </header>
 
-    <!-- ARTIGO FORA DA MAIN -->
-    <article>
-        <header>
-            <h3>
-                Teste de Artigo
-            </h3>
-        </header>
+             <article>
+                 <header>
+                     <p>
+                         <a href="#">Facebook</a>
+                         <a href="#">Intagram</a>
+                         <a href="#">Youtube</a>
+                     </p>
+                     <h2>
+                         Tudo o que você precisa para iniciar a sua carreia webmaster Full Stack
+                     </h2>
+                 </header>
+                 <p>
+                     Desde 2010 0 <i>Campus</i> Araguaina - IFTO vem ofertando os melhores cursos
+                     na área de tecnologia em sua região. Entregamos ao aluno conhecimento prático e
+                     testado, sem enrolação.
+                 </p>
+                 <p>
+                     Que tal estudar conesco? E aprender a entregar seus projetos
+                     utilizando HTML5 e CSS3 com boas práticas?
+                 </p>
+             </article>
 
-        <p>
-            Unde qui sit est animi dolor. Est qui in magni doloribus asperiores sed ut optio. Sequi sit neque beatae
-            occaecati consequuntur. Voluptatem et qui qui sed sed quia maiores. Excepturi occaecati omnis esse
-            pariatur tempore libero.
-            Adipisci doloremque at dignissimos. Officia corporis rerum autem quia. Cumque quos voluptatem.
-            Consequatur laudantium assumenda qui autem tenetur architecto iste veniam. Qui architecto ipsa quisquam
-            voluptatem odio aut deleniti nihil nam.
-            Expedita placeat veniam minima nihil possimus sint consectetur. Vel ratione est rerum id. Nam quia aut
-            nulla voluptatum blanditiis est.
-        </p>
-    </article>
-    <!-- FIM ARTIGO FORA DA MAIN -->
+             <section>
+                 <header>
+                     <h2>Confira nossos cursos</h2>
+                 </header>
+                 <?php $cursos = [
+                     "Operador de Computador",
+                     "Técnico em Biotecnologia",
+                     "Técnico em Informática",
+                     "Técnico em Análises Clínicas",
+                     "Técnico em Enfermagem",
+                     "Gestão de Produção Industrial",
+                     "Formação Docente em Educação Ambiental de Desenvolvimento Sustentável",
+                 ]; ?>
 
+                 <?php foreach ($cursos as $key => $value): ?>
+                 <article>
+                     <header>
+                         <h3>
+                             <?= $value ?>
+                         </h3>
+                     </header>
+                 </article>
+                 <?php endforeach; ?>
 
-    <P>
-        Isso aqui é um bloco.
-    </P>
-    <script> </script>
-</body>
+                 <img src="assets/img/logo.png" alt='IFTO' title='IFTO'>
+                 <article>
+                     <header>
+                         <h2>Nos Encontre</h2>
+                     </header>
+                     <p>
+                         Av. Amazonas, esquina com a Av. Paraguai, Quadra S6,
+                         Lote 01, Setor Cimba
+                     </p>
+                 </article>
+             </section>
+         </section>
+         <!-- FIM A ESCOLA -->
 
-</html>
+         <!-- TUTOR -->
+         <section>
+             <header>
+                 <h1>Conheça Iury Gomes, seu tutor nesse curso</h1>
+                 <P>Eu quero te ajudar a criar sua webpage em HTML5 e CSS3</P>
+             </header>
+             <img src="assets/img/foto.jpeg" alt='Iury Gomes' title='Iury Gomes'>
+             <article>
+                 <header>
+                     <h2>Formado em Ciência da Computação e apaixonado por ERB</h2>
+                 </header>
+                 <p>
+                     Como muito, comecei na programnação por curiosidade!
+                     com o tempo, o amor pela programação foi crescendo a
+                     ponto de se tornar uma profissão e me especializar na
+                     área. Hoje com a bagagem que tenho, compartilho meu
+                     conhecimento com todos os alunos que estudam no <i>Campus</i>
+                     Araguaina - IFTO.
+
+                 </p>
+             </article>
+             <section>
+                 <header>
+                     <h2>Me siga nas redes sociais</h2>
+                 </header>
+
+                 <article>
+                     <header>
+                         <h3><a href="#">Meu Youtube</a></h3>
+                     </header>
+                 </article>
+                 <article>
+                     <header>
+                         <h3><a href="#">Meu GitHub</a></h3>
+                     </header>
+                 </article>
+                 <article>
+                     <header>
+                         <h3><a href="#">Meu Linkedin</a></h3>
+                     </header>
+                 </article>
+                 <article>
+                     <header>
+                         <h3><a href="#">Meu Twitter</a></h3>
+                     </header>
+                 </article>
+             </section>
+         </section>
+         <!-- FIM TUTOR -->
+     </main>
+
+     <!-- ÁREA VIP -->
+     <section>
+         <header>
+             <h1>QUER RECEBER NOSSO CONTEÚDO EXCLUSIVO? Assine nossa área VIP</h1>
+         </header>
+         <article>
+             <header>
+                 <h2><a href="#" class='btn'>Entrar para a área VIP</a></h2>
+             </header>
+         </article>
+     </section>
+     <!-- FIM ÁREA VIP -->
+
+     <!-- SABER MAIS -->
+     <section>
+         <header>
+             <h1>Quer saber mais?</h1>
+         </header>
+         <section>
+             <header>
+                 <h2>Nossa páginas:</h2>
+             </header>
+             <ul>
+                 <li><a href="#">Home</a></li>
+                 <li><a href="#">Blog</a></li>
+                 <li><a href="#">A Escola</a></li>
+                 <li><a href="#">Contato</a></li>
+             </ul>
+         </section>
+         <!--  -->
+         <section>
+             <header>
+                 <h2>Links Úteis:</h2>
+             </header>
+             <ul>
+                 <li><a href="#">Política de Privacidade</a></li>
+                 <li><a href="#">Aviso Legal</a></li>
+                 <li><a href="#">Termo de Uso</a></li>
+             </ul>
+         </section>
+         <!--  -->
+         <section>
+             <header>
+                 <h2>Sobre o Projeto:</h2>
+             </header>
+             <p>
+                 Et eos natus quia vel labore omnis. Nisi occaecati modi
+                 saepe est. Et doloremque alias voluptas dicta voluptas.
+                 Laudantium at repudiandae ut vero est sunt quibusdam
+                 repellendus consectetur. Dolorem debitis pariatur
+                 officia saepe. Laudantium est consequatur qui repellat
+                 saepe.
+             </p>
+         </section>
+         <!--  -->
+     </section>
+     <!-- FIM SABER MAIS -->
+     <footer>
+         <p>
+             &copy; Copyright 2020 - <?= date(
+                 'Y'
+             ) ?> , <i>Campus</i> Araguaina - IFTO
+         </p>
+     </footer>
+
+     <script></script>
+ </body>
+
+ </html>
