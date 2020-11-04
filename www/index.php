@@ -22,9 +22,6 @@
                  <li><a href="#blog">Blog</a></li>
                  <li><a href="#escola">A Escola</a></li>
                  <li><a href="#contatos">Contato</a></li>
-                 <li><a href="/novos_caminhos_iuri/www/Avaliacao3/index.php">Avaliação 3</a></li>
-                 <li><a href="/novos_caminhos_iuri/www/Projeto_Pratico/index.php">Projeto Pático</a></li>
-                 <li><a href="/novos_caminhos_iuri/www/testesIuri/readtesteiar.php">Redes Sociais</a></li>
              </ul>
          </nav>
      </header>
