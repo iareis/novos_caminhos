@@ -5,65 +5,82 @@
      <meta charset="UTF-8" />
      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
      <meta name="robots" content="index, follow" />
-     <link rel="shortcut icon" href="" />
-     <link rel="stylesheet" href="" />
-     <title>Site do Curso Programador WEB</title>
+     <link rel="shortcut icon" href="assets/img/ifto.svg" />
+     <link rel="stylesheet" href="assets/css/fonticon.css" />
+     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="assets/styles/boot.css" />
+     <link rel="stylesheet" href="assets/styles/style_one.css" />
+     <title>Site do Curso</title>
  </head>
 
  <body>
      <!-- CABEÇALHO -->
-     <header>
-         <a href="#">
-             <img src="assets/img/logo.png" alt="logotipo do curso" title="logotipo do curso" width="150" />
-         </a>
-         <nav>
-             <ul>
-                 <li><a href="#home">Home</a></li>
-                 <li><a href="#blog">Blog</a></li>
-                 <li><a href="#escola">A Escola</a></li>
-                 <li><a href="#contatos">Contato</a></li>
-             </ul>
-         </nav>
+     <header class="main_header">
+         <div class="main_header_content">
+             <a href="#" class="logo">
+                 <img src="assets/img/logo.png" alt="logotipo do curso" title="logotipo do curso" width="250" />
+             </a>
+             <nav class="main_header_content_menu">
+                 <ul>
+                     <li><a href="#home">Home</a></li>
+                     <li><a href="#blog">Blog</a></li>
+                     <li><a href="#escola">A Escola</a></li>
+                     <li><a href="#contatos">Contato</a></li>
+                 </ul>
+             </nav>
+         </div>
      </header>
      <!-- FIM DO CABEÇALHO -->
 
      <main>
 
          <!-- CHAMADA PRINCIPAL -->
-         <article>
-             <header>
-                 <h1>
-                     Aqui você aprende o essencial para trabalhar como
-                     Webmaster Fullstack
-                 </h1>
-                 <p>Estude o HTML 5 e o CSS 3 na disciplina de webdesign</p>
-                 <p>
-                     <a href="#" class="btn">Saiba mais</a>
-                 </p>
-             </header>
-         </article>
+         <div class="main_cta">
+             <article class="main_cta_content">
+                 <header>
+                     <h1>
+                         Aqui você aprende o essencial para trabalhar como
+                         Webmaster Fullstack
+                     </h1>
+                     <p>Estude o HTML 5 e o CSS 3 na disciplina de webdesign</p>
+                     <p>
+                         <a href="#" class="btn">Saiba mais</a>
+                     </p>
+                 </header>
+             </article>
+         </div>
          <!-- FIM DA CHAMADA PRINCIPAL -->
 
          <!-- ARTIGOS -->
-         <section>
-             <header>
-                 <h1>Nossos Últimos Artigos:</h1>
+         <section class="main_blog">
+             <header class="main_blog_header">
+                 <h1 class="icon-blog">
+                     Nossos Últimos Artigos:
+                 </h1>
+                 <p>
+                     Aqui você encontra os artigos necessários para auxiliar na
+                     sua caminhada na WEB.
+                 </p>
              </header>
-             <p>
-                 Aqui você encontra os artigos necessários para auxiliar na
-                 sua caminhada na WEB.
-             </p>
              <?php for ($i = 0; $i < 12; $i++): ?>
              <article>
-                 <a href="" alt="" title=""></a>
-                 <p>Categoria</p>
+                 <a href="#" alt="" title="">
+                     <<img src='assets/img/rede_federal2.jpg' alt='Rede Federal' title='Rede Federal'>
+                 </a>
+                 <p>
+                     <a href="" class="category">
+                         Categoria
+                     </a>
+                 </p>
                  <h2>
-                     Et eos natus quia vel labore omnis. Nisi occaecati modi
-                     saepe est. Et doloremque alias voluptas dicta voluptas.
-                     Laudantium at repudiandae ut vero est sunt quibusdam
-                     repellendus consectetur. Dolorem debitis pariatur
-                     officia saepe. Laudantium est consequatur qui repellat
-                     saepe.
+                     <a href="" class="title">
+                         Et eos natus quia vel labore omnis. Nisi occaecati modi
+                         saepe est. Et doloremque alias voluptas dicta voluptas.
+                         Laudantium at repudiandae ut vero est sunt quibusdam
+                         repellendus consectetur. Dolorem debitis pariatur
+                         officia saepe. Laudantium est consequatur qui repellat
+                         saepe.
+                     </a>
                  </h2>
              </article>
              <?php endfor; ?>
