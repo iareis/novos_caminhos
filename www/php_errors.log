@@ -1,0 +1,36 @@
+[14-Nov-2020 16:54:30 America/Araguaina] PHP Warning:  Invalid argument supplied for foreach() in /usr/share/nginx/html/teste_IA_reis_mysql_php.php on line 18
+[14-Nov-2020 16:54:30 America/Araguaina] PHP Stack trace:
+[14-Nov-2020 16:54:30 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/teste_IA_reis_mysql_php.php:0
+[14-Nov-2020 16:56:18 America/Araguaina] PHP Warning:  Invalid argument supplied for foreach() in /usr/share/nginx/html/teste_IA_reis_mysql_php.php on line 18
+[14-Nov-2020 16:56:18 America/Araguaina] PHP Stack trace:
+[14-Nov-2020 16:56:18 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/teste_IA_reis_mysql_php.php:0
+[14-Nov-2020 16:56:19 America/Araguaina] PHP Warning:  Invalid argument supplied for foreach() in /usr/share/nginx/html/teste_IA_reis_mysql_php.php on line 18
+[14-Nov-2020 16:56:19 America/Araguaina] PHP Stack trace:
+[14-Nov-2020 16:56:19 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/teste_IA_reis_mysql_php.php:0
+[14-Nov-2020 17:00:18 America/Araguaina] PHP Warning:  Invalid argument supplied for foreach() in /usr/share/nginx/html/teste_IA_reis_mysql_php.php on line 18
+[14-Nov-2020 17:00:18 America/Araguaina] PHP Stack trace:
+[14-Nov-2020 17:00:18 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/teste_IA_reis_mysql_php.php:0
+[14-Nov-2020 17:01:08 America/Araguaina] PHP Warning:  Invalid argument supplied for foreach() in /usr/share/nginx/html/teste_IA_reis_mysql_php.php on line 18
+[14-Nov-2020 17:01:08 America/Araguaina] PHP Stack trace:
+[14-Nov-2020 17:01:08 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/teste_IA_reis_mysql_php.php:0
+[14-Nov-2020 17:03:34 America/Araguaina] PHP Warning:  Invalid argument supplied for foreach() in /usr/share/nginx/html/teste_IA_reis_mysql_php.php on line 18
+[14-Nov-2020 17:03:34 America/Araguaina] PHP Stack trace:
+[14-Nov-2020 17:03:34 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/teste_IA_reis_mysql_php.php:0
+[14-Nov-2020 17:05:03 America/Araguaina] PHP Warning:  Invalid argument supplied for foreach() in /usr/share/nginx/html/teste_IA_reis_mysql_php.php on line 18
+[14-Nov-2020 17:05:03 America/Araguaina] PHP Stack trace:
+[14-Nov-2020 17:05:03 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/teste_IA_reis_mysql_php.php:0
+[14-Nov-2020 17:07:13 America/Araguaina] PHP Warning:  Invalid argument supplied for foreach() in /usr/share/nginx/html/teste_IA_reis_mysql_php.php on line 18
+[14-Nov-2020 17:07:13 America/Araguaina] PHP Stack trace:
+[14-Nov-2020 17:07:13 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/teste_IA_reis_mysql_php.php:0
+[14-Nov-2020 17:07:15 America/Araguaina] PHP Warning:  Invalid argument supplied for foreach() in /usr/share/nginx/html/teste_IA_reis_mysql_php.php on line 18
+[14-Nov-2020 17:07:15 America/Araguaina] PHP Stack trace:
+[14-Nov-2020 17:07:15 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/teste_IA_reis_mysql_php.php:0
+[14-Nov-2020 17:09:23 America/Araguaina] PHP Warning:  Invalid argument supplied for foreach() in /usr/share/nginx/html/teste_IA_reis_mysql_php.php on line 18
+[14-Nov-2020 17:09:23 America/Araguaina] PHP Stack trace:
+[14-Nov-2020 17:09:23 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/teste_IA_reis_mysql_php.php:0
+[14-Nov-2020 17:10:02 America/Araguaina] PHP Warning:  Invalid argument supplied for foreach() in /usr/share/nginx/html/teste_IA_reis_mysql_php.php on line 18
+[14-Nov-2020 17:10:02 America/Araguaina] PHP Stack trace:
+[14-Nov-2020 17:10:02 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/teste_IA_reis_mysql_php.php:0
+[14-Nov-2020 17:12:57 America/Araguaina] PHP Warning:  Invalid argument supplied for foreach() in /usr/share/nginx/html/teste_IA_reis_mysql_php.php on line 18
+[14-Nov-2020 17:12:57 America/Araguaina] PHP Stack trace:
+[14-Nov-2020 17:12:57 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/teste_IA_reis_mysql_php.php:0
